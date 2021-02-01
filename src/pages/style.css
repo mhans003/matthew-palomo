@@ -35,6 +35,10 @@ nav {
     line-height: 3rem;
 }
 
+.navbar-toggler {
+    background-color: rgba(240,150,70,0.8) !important;
+}
+
 .brand-name {
     font-size: 132%;
     font-weight: 400;
@@ -99,6 +103,12 @@ nav {
 
 #about-box {
     background-image: url("https://images.unsplash.com/photo-1521650775848-620150d73160?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2224&q=80");
+    background-size: cover;
+}
+
+#covid19-box {
+    background-image: url("https://images.unsplash.com/photo-1610703124159-1f3d24db427b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2978&q=80");
+    background-size: cover;
 }
 
 .section-heading {
@@ -120,6 +130,14 @@ nav {
 .orange {
     color: rgba(240,150,70, 1.0);
     font-weight: 400;
+}
+
+.contact-me:hover {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none !important;
 }
 
 /*Footer*/
@@ -186,7 +204,7 @@ a i:hover, a i:hover {
 }
 
 /*Ignore .hr-light on Galaxy Fold*/
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 382px) {
 
     .hr-light {
         display: none; 

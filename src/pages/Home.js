@@ -17,7 +17,7 @@ const Home = (props) => {
             <ContentBox id={"about-box"}>
                 <Container>
                     <h1 className="section-heading">A<span className="smaller-text">BOUT</span></h1>
-                    <hr className="orange-hr"/>
+                    <hr className="orange-hr mb-5"/>
                     <Row>
                         <Col size="col-lg-6">
                             IMAGE PLACHOLDER
