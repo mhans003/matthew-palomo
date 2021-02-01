@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgba(120,120,120,1.0);
 }
 
 hr {
@@ -83,6 +84,44 @@ nav {
     background-color: rgba(240,254,255,1.0) !important;
 }
 
+/*Main Content Styles*/
+
+.content-overlay {
+    margin-top: 5px;
+}
+
+.content-box {
+    padding-top: 30px;
+    padding-bottom: 20%;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+#about-box {
+    background-image: url("https://images.unsplash.com/photo-1521650775848-620150d73160?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2224&q=80");
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.orange-hr {
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(240,150,70, 0.75), rgba(0, 0, 0, 0));
+}
+
+.biobody {
+    text-indent: 40px;
+    font-size: 140%; 
+    line-height: 3rem;
+    font-weight: 200 !important;
+}
+
+.orange {
+    color: rgba(240,150,70, 1.0);
+    font-weight: 400;
+}
+
 /*Footer*/
 
 footer {
@@ -129,6 +168,10 @@ a i:hover, a i:hover {
         margin-left: auto !important; 
         margin-right: auto !important; 
         margin-bottom: 5px; 
+    }
+
+    .content-box {
+        padding-bottom: 40%;
     }
 
 }
