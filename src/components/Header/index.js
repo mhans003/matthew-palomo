@@ -11,9 +11,9 @@ function Header(props) {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <NavItem text={"Home"} tagName={'home'} current={props.current}/>
-                    <NavItem text={"Portfolio"} tagName={'portfolio'} current={props.current}/>
+                    <NavItem text={"Services"} tagName={'services'} current={props.current}/>
+                    <NavItem text={"Credentials"} tagName={'credentials'} current={props.current}/>
                     <NavItem text={"Contact"} tagName={'contact'} current={props.current}/>
-                    <NavItem text={"Resume"} tagName={'resume'} current={props.current}/>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
