@@ -8,11 +8,11 @@ function Header(props) {
         <div className="overlay-image">
             <Navbar className="navbar-dark py-0" expand="lg">
                     <Navbar.Brand className="py-5" href="/">
-                        <span className="brand-name">M. PALOMO</span>
+                        <span className="brand-name">PALOMO</span>
                         <br/>
                         <span className="brand-sub">
                             S<span className="smaller-text">AFETY </span> 
-                            C<span className="smaller-text">ONSULTATIONS</span>
+                            C<span className="smaller-text">ONSULTING</span>
                         </span>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="mr-2" />

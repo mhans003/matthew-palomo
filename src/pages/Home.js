@@ -13,6 +13,7 @@ const Home = (props) => {
     return (
         <div>
             <Header current={props.current}/>
+            <Footer/>
         </div>
     );
 }
