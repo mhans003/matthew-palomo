@@ -111,6 +111,11 @@ nav {
     background-size: cover;
 }
 
+#contact-box {
+    background-image: url("https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+    background-size: cover;
+}
+
 .section-heading {
     text-align: center;
 }
@@ -138,6 +143,47 @@ nav {
 
 a:hover {
     text-decoration: none !important;
+}
+
+/*Contacts*/
+
+
+.btn-primary {
+    background-color: rgba(240,150,70,1.0); 
+    border-color: rgba(240,150,70,1.0); 
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #fff; 
+    border-color: rgba(240,150,70,1.0); 
+    color: rgba(240,150,70,1.0); 
+}
+
+.copy-button {
+    background-color: rgba(240,150,70,1.0);
+    color: #fff;
+    border: none;
+}
+
+.copy-button:active, .copy-button:focus, .copy-button:hover {
+    background-color: rgba(240,150,70,1.0) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.page-button {
+    padding: 15px; 
+    margin-top: 30px; 
+    width: 100%; 
+}
+
+.page-button:focus {
+    background-color: rgba(30,34,50,1.0) !important; 
+}
+
+.modal-header {
+    background-color: rgba(240,150,70,1.0);
+    color: #fff;
 }
 
 /*Footer*/
