@@ -101,6 +101,13 @@ nav {
     color: #fff;
 }
 
+.content-box-top {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+}
+
 #about-box {
     background-image: url("https://images.unsplash.com/photo-1521650775848-620150d73160?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2224&q=80");
     background-size: cover;
@@ -113,6 +120,11 @@ nav {
 
 #contact-box {
     background-image: url("https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+    background-size: cover;
+}
+
+#credentials-box {
+    background-image: url("https://images.unsplash.com/photo-1565085360602-de694f1d7650?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80");
     background-size: cover;
 }
 
@@ -132,7 +144,11 @@ nav {
     font-weight: 200 !important;
 }
 
-.services-list {
+#bio-pic {
+    width: 80%;
+}
+
+.bullet-list {
     font-size: 140%;
     line-height: 3rem;
     list-style-type: none;

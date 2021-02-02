@@ -40,7 +40,7 @@ const Covid19 = (props) => {
                                     S<span className="smaller-text">ERVICES</span>
                                 </h3>
                             </div>
-                            <ul className="services-list ml-md-5">
+                            <ul className="bullet-list ml-md-5">
                                 <li>
                                     <i class="far fa-check-square mr-1 mr-sm-2 mr-md-3 mr-lg-4 mr-xl-5"></i> Pandemic Response Plan Implementation
                                 </li>

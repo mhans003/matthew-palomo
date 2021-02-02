@@ -20,7 +20,6 @@ function Header(props) {
                         <Nav className="ml-auto">
                             <NavItem text={"ABOUT"} tagName={'home'} current={props.current}/>
                             <NavItem text={"COVID-19"} tagName={'covid19'} current={props.current}/>
-                            <NavItem text={"CREDENTIALS"} tagName={'credentials'} current={props.current}/>
                             <NavItem text={"CONTACT"} tagName={'contact'} current={props.current}/>
                         </Nav>
                     </Navbar.Collapse>
