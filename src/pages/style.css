@@ -204,7 +204,7 @@ a:hover {
 }
 
 .page-button:focus {
-    background-color: rgba(30,34,50,1.0) !important; 
+    background-color: rgba(240,150,70,1.0) !important; 
 }
 
 .modal-header {
