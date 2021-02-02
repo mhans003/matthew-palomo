@@ -35,7 +35,7 @@ const Contact = (props) => {
                         icon={"fas fa-envelope-open-text"} 
                         handleContactShow={handleContactShow}
                         heading={`Email`}
-                        body={"matthewpalomo235@gmail.com"}
+                        body={"palomosafetyconsulting@gmail.com"}
                     />
                     <ContactButton 
                         text={"Phone "} 

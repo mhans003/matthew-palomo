@@ -132,6 +132,12 @@ nav {
     font-weight: 200 !important;
 }
 
+.services-list {
+    font-size: 140%;
+    line-height: 3rem;
+    list-style-type: none;
+}
+
 .orange {
     color: rgba(240,150,70, 1.0);
     font-weight: 400;
@@ -143,6 +149,10 @@ nav {
 
 a:hover {
     text-decoration: none !important;
+}
+
+.fa-check-square {
+    color: rgba(240,150,70, 1.0);
 }
 
 /*Contacts*/
@@ -217,6 +227,10 @@ a i:hover, a i:hover {
         margin-right: 0px;
     }
 
+    .content-box {
+        padding-bottom: 30%;
+    }
+
 }
 
 @media screen and (max-width: 499px) {
@@ -254,6 +268,14 @@ a i:hover, a i:hover {
 
     .hr-light {
         display: none; 
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .content-box {
+        padding-bottom: 50%;
     }
 
 }

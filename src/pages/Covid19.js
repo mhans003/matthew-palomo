@@ -35,8 +35,34 @@ const Covid19 = (props) => {
                                 than happy to lend a helping hand with confusing procedures for staying open
                                 and thriving in a pandemic state.
                             </p>
+                            <div className="text-center">
+                                <h3 className="orange mb-4 mt-4 mt-lg-0">
+                                    S<span className="smaller-text">ERVICES</span>
+                                </h3>
+                            </div>
+                            <ul className="services-list ml-md-5">
+                                <li>
+                                    <i class="far fa-check-square mr-1 mr-sm-2 mr-md-3 mr-lg-4 mr-xl-5"></i> Pandemic Response Plan Implementation
+                                </li>
+                                <li>
+                                    <i class="far fa-check-square mr-1 mr-sm-2 mr-md-3 mr-lg-4 mr-xl-5"></i> Hazard Risk Assessment(s)
+                                </li>
+                                <li>
+                                    <i class="far fa-check-square mr-1 mr-sm-2 mr-md-3 mr-lg-4 mr-xl-5"></i> Site Walkthrough
+                                </li>
+                                <li>
+                                    <i class="far fa-check-square mr-1 mr-sm-2 mr-md-3 mr-lg-4 mr-xl-5"></i> Mitigation Strategies
+                                </li>
+                                <li>
+                                    <i class="far fa-check-square mr-1 mr-sm-2 mr-md-3 mr-lg-4 mr-xl-5"></i> Training
+                                </li>
+                                <li>
+                                    <i class="far fa-check-square mr-1 mr-sm-2 mr-md-3 mr-lg-4 mr-xl-5"></i> PPE Supply Recommendations
+                                </li>
+                            </ul>
                         </Col>
                     </Row>
+                    <hr className="orange-hr"/>
                     <Link to="/contact">
                         <h5 className="contact-me orange mt-4 text-center">
                             Contact Me Today!
