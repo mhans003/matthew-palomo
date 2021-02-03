@@ -28,7 +28,7 @@ const Contact = (props) => {
             <Header current={props.current}/>
             <ContentBox id={"contact-box"}>
                 <Container>
-                    <h1 className="section-heading">Contact</h1>
+                    <h1 className="section-heading">C<span className="smaller-text">ONTACT</span></h1>
                     <hr className="orange-hr mb-5"/>
                     <ContactButton 
                         text={"Email "} 
