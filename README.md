@@ -2,7 +2,7 @@
 
 ## Deployed Application 
 
-[Palomo Safety Consulting - Michael Hanson](https://palomo-safety-consulting.herokuapp.com/)
+[Palomo Safety Consulting - Michael Hanson](https://safety-consulting-mh.herokuapp.com/)
 
 ![Screenshot](./public/assets/images/safetyconsulting.jpg)
 
