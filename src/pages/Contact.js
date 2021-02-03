@@ -35,14 +35,14 @@ const Contact = (props) => {
                         icon={"fas fa-envelope-open-text"} 
                         handleContactShow={handleContactShow}
                         heading={`Email`}
-                        body={"palomosafetyconsulting@gmail.com"}
+                        body={"safetyconsulting@sample.com"}
                     />
                     <ContactButton 
                         text={"Phone "} 
                         icon={"fas fa-mobile-alt"}
                         handleContactShow={handleContactShow}
                         heading={"Call or Text"}
-                        body={"(951) 795-8966"}
+                        body={"(555) 555-5555"}
                     />
                 </Container>
             </ContentBox>

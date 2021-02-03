@@ -5,8 +5,8 @@ function Footer() {
         <footer className="footer bg-dark">
             <nav className="container-fluid">
                 <div className="row justify-content-around mx-2 text-light">
-                    <FooterItem url={`/contact`} icon={`fas fa-mobile-alt`} text={`(951) 795-8966`} alt={`Matthew Palomo's Phone Number`}/>
-                    <FooterItem url={`/contact`} icon={`fas fa-envelope-open-text`} text={`palomosafetyconsulting@gmail.com`} alt={`Matthew Palomo's Email Address`}/>
+                    <FooterItem url={`/contact`} icon={`fas fa-mobile-alt`} text={`(555) 555-5555`} alt={`Phone Number`}/>
+                    <FooterItem url={`/contact`} icon={`fas fa-envelope-open-text`} text={`safetyconsulting@sample.com`} alt={`Email Address`}/>
                 </div>
             </nav>
         </footer>
